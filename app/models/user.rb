@@ -40,7 +40,6 @@ class User < ActiveRecord::Base
   def self.search(param)
     return User.none if param.blank?
     
-
     param.strip!
     param.downcase!
     
