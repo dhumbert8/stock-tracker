@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require turbolinks
+// require turbolinks
 //= require_tree .
 
 var hide_spinner = function(){
@@ -23,3 +23,4 @@ var hide_spinner = function(){
 var show_spinner = function(){
     $('#spinner').show();
 }
+
